@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Website Layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: #000000;
+}
+/* Create three equal columns that floats next to each other */
+.column {
+  text-align: center;
+  width: 100%;
+  padding: 200px;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>My ToDo List</h1>
+  <p> Organize seus deveres criando seu ToDo List</p>
+</div>
+
+<div class="topnav">
+  <a href="index (1).html">Cadastrar ToDo</a>
+</div>
+<div class="row">
+        <div class="column">
+          <h2>Sobre</h2>
+          <p> ToDo List é um termo espalhado pela internet que indica apenas uma lista de tarefas a ser feita por alguém.
+            No campo cadastrar ToDo você poderá cadastrar a sua lista de tarefas. 
+            Em primeiro momento você vai adicionar as tarefas ao seu ToDo. Após, terá a opção de editar e excluir a sua lista incluída.
+            Logo, ao clicar no checkbox nos item do ToDo você determina como completada a sua tarefa podendo da mesma forma editar e excluir quando desejado.
+            Organize seu dia a dia!
+          </p>
+        </div>
+
+</body>
+</html>
